@@ -1,0 +1,12 @@
+Column,Missing_Values
+Sample_ID,0
+Clump_Thickness,0
+Uniformity_Cell_Size,0
+Uniformity_Cell_Shape,0
+Marginal_Adhesion,0
+Single_Epithelial_Cell_Size,0
+Bare_Nuclei,0
+Bland_Chromatin,0
+Normal_Nucleoli,0
+Mitoses,0
+Class,0
