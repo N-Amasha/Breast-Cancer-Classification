@@ -1,10 +1,10 @@
 Feature,Importance
-Uniformity_Cell_Size,0.8265398434962669
-Bare_Nuclei,0.11479663957110232
-Clump_Thickness,0.03305006243524172
-Normal_Nucleoli,0.011134905105147018
-Marginal_Adhesion,0.00995996413444191
-Uniformity_Cell_Shape,0.004518585257800131
-Single_Epithelial_Cell_Size,0.0
+Uniformity_Cell_Size,0.8273738214033064
+Bare_Nuclei,0.14164617200329574
+Normal_Nucleoli,0.010398370200815
+Uniformity_Cell_Shape,0.010323425144619992
+Clump_Thickness,0.006173670371976454
+Marginal_Adhesion,0.0029865812061735616
+Single_Epithelial_Cell_Size,0.0010979596698128867
 Bland_Chromatin,0.0
 Mitoses,0.0
