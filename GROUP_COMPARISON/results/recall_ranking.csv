@@ -1,7 +1,0 @@
-Rank,Member,Model,Recall,False Negatives,F1,ROC-AUC
-1,Member 03,Random Forest,0.9792,1,0.9691,0.9934
-2,Member 04,Logistic Regression,0.9583,2,0.9583,0.9961
-3,Member 05,PCA + Logistic Regression,0.9583,2,0.9583,0.997
-4,Member 06,SVM,0.9583,2,0.9583,0.997
-5,Member 02,KNN,0.9167,4,0.9462,0.9823
-6,Member 01,Decision Tree,0.8333,8,0.8889,0.9666

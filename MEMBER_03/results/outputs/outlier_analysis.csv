@@ -1,9 +1,0 @@
-Feature,Q1,Q3,Outliers
-Clump_Thickness,2.0,6.0,0
-Uniformity_Cell_Size,1.0,5.0,0
-Uniformity_Cell_Shape,1.0,5.0,0
-Marginal_Adhesion,1.0,4.0,60
-Single_Epithelial_Cell_Size,2.0,4.0,54
-Bland_Chromatin,2.0,5.0,20
-Normal_Nucleoli,1.0,4.0,77
-Mitoses,1.0,1.0,120

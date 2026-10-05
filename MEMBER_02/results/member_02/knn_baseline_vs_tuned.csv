@@ -1,3 +1,0 @@
-Model,Accuracy,Precision,Recall,F1,ROC_AUC,False_Negatives
-KNN - Baseline,0.9568,0.9773,0.8958,0.9348,0.9828,5
-KNN - Tuned,0.964,0.9778,0.9167,0.9462,0.9823,4

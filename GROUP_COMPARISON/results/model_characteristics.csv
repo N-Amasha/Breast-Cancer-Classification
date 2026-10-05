@@ -1,7 +1,0 @@
-Model,Main Strength,Main Limitation,Observed Final Behavior
-Decision Tree,Simple and interpretable tree structure,Can overfit and can be unstable,Lowest recall and highest false negatives
-KNN,Simple distance-based classification,Sensitive to scaling and choice of neighbors,Highest precision but lower recall than top models
-Random Forest,Strong nonlinear ensemble performance,Less interpretable than a single tree,Highest F1 and recall with only one false negative
-Logistic Regression,Simple and interpretable probabilistic model,Assumes a mainly linear decision relationship,Strong balanced precision and recall
-PCA + Logistic Regression,Dimensionality reduction with strong discrimination,Principal components reduce direct feature interpretability,Strong balanced performance and highest ROC-AUC
-SVM,Strong classification boundary and discrimination,Less directly interpretable than linear models,Strong balanced performance and highest ROC-AUC

@@ -1,7 +1,0 @@
-Member,Model,Version,Accuracy,Precision,Recall,F1,ROC-AUC,False Negatives,Test Observations,Actual Malignant,True Positives
-Member 01,Decision Tree,Tuned,0.9281,0.9524,0.8333,0.8889,0.9666,8,139,48,40
-Member 02,KNN,Tuned,0.964,0.9778,0.9167,0.9462,0.9823,4,139,48,44
-Member 03,Random Forest,Tuned,0.9784,0.9592,0.9792,0.9691,0.9934,1,139,48,47
-Member 04,Logistic Regression,Tuned,0.9712,0.9583,0.9583,0.9583,0.9961,2,139,48,46
-Member 05,PCA + Logistic Regression,Tuned,0.9712,0.9583,0.9583,0.9583,0.997,2,139,48,46
-Member 06,SVM,Tuned,0.9712,0.9583,0.9583,0.9583,0.997,2,139,48,46

@@ -1,2 +1,0 @@
-Member,Model,Version,Accuracy,Precision,Recall,F1,ROC-AUC,False Negatives,Test Observations,Actual Malignant,True Positives,Selection Reason
-Member 03,Random Forest,Tuned,0.9784,0.9592,0.9792,0.9691,0.9934,1,139,48,47,"Highest test accuracy, recall and F1-score, with only one false negative."

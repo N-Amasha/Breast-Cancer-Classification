@@ -1,7 +1,0 @@
-Rank,Member,Model,ROC-AUC,F1,Recall
-1,Member 05,PCA + Logistic Regression,0.997,0.9583,0.9583
-2,Member 06,SVM,0.997,0.9583,0.9583
-3,Member 04,Logistic Regression,0.9961,0.9583,0.9583
-4,Member 03,Random Forest,0.9934,0.9691,0.9792
-5,Member 02,KNN,0.9823,0.9462,0.9167
-6,Member 01,Decision Tree,0.9666,0.8889,0.8333
