@@ -1,0 +1,7 @@
+Member,Model,Accuracy,Precision,Recall,F1,ROC-AUC,False Negatives,Key Interpretation
+Member 01,Decision Tree,0.9281,0.9524,0.8333,0.8889,0.9666,8,"Interpretable, but lowest recall and highest false negatives"
+Member 02,KNN,0.964,0.9778,0.9167,0.9462,0.9823,4,"Highest precision, but missed four malignant cases"
+Member 03,Random Forest,0.9784,0.9592,0.9792,0.9691,0.9934,1,"Highest accuracy, recall and F1; only one false negative"
+Member 04,Logistic Regression,0.9712,0.9583,0.9583,0.9583,0.9961,2,Strong balanced performance with high ROC-AUC
+Member 05,PCA + Logistic Regression,0.9712,0.9583,0.9583,0.9583,0.997,2,Strong balanced performance and joint-highest ROC-AUC
+Member 06,SVM,0.9712,0.9583,0.9583,0.9583,0.997,2,Strong balanced performance and joint-highest ROC-AUC
