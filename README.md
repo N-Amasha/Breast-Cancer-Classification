@@ -218,3 +218,68 @@ The dataset is relatively small and historical, which limits the generalizabilit
 The models developed in this project are intended for **academic experimentation and evaluation only** and are **not clinical diagnostic systems**.
 
 ---
+
+## 12. Streamlit Prediction Application
+
+A Streamlit-based user interface was developed to demonstrate how the final machine learning solution can be used in an interactive application.
+
+The application uses the **tuned Random Forest pipeline**, which achieved the strongest overall held-out performance in the final group comparison.
+
+### Final Random Forest Performance
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 97.84% |
+| Precision | 95.92% |
+| Recall | 97.92% |
+| F1-Score | 96.91% |
+| ROC-AUC | 99.34% |
+| False Negatives | 1 |
+
+### Application Features
+
+- Accepts all 9 predictive features from the Breast Cancer Wisconsin (Original) dataset.
+- Uses feature values on the original 1–10 scale.
+- Loads the saved tuned Random Forest pipeline.
+- Applies the same preprocessing and model used during final evaluation.
+- Predicts **Benign** or **Malignant**.
+- Displays Random Forest class-probability outputs.
+- Displays the entered sample for transparency.
+- Shows final model performance information.
+- Includes a clear educational and non-clinical-use disclaimer.
+
+### Application Structure
+
+```text
+app/
+└── app.py
+
+models/
+└── random_forest_pipeline.pkl
+
+requirements.txt
+```
+
+### Install Application Dependencies
+
+From the project root:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+python -m streamlit run app/app.py
+```
+
+Streamlit will start the application locally, normally at:
+
+```text
+http://localhost:8501
+```
+
+### Important Disclaimer
+
+This application is an **academic AI/ML demonstration only**. The model was trained using the historical Breast Cancer Wisconsin (Original) dataset and has not been clinically validated. The predictions and class-probability outputs must not be interpreted as medical diagnoses, clinical risk estimates, or treatment recommendations.
